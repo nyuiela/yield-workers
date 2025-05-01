@@ -95,7 +95,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-          <button className="text-white text-2xl font-bold text-center bg-[#9DC45F] p-4 rounded-2xl m-10" onClick={() => window.open('https://prototype.yieldit.co/')}>Launch Prototype</button>
+          <button className="text-white text-2xl font-bold text-center bg-[#9DC45F] p-4 rounded-2xl m-10" onClick={() => window.open('https://prototype.yieldit.co/app?search=1&lat=51.57127875&lon=-0.0549025')}>Launch Prototype</button>
         </div>
 
         {/* Sponsors Slider */}
