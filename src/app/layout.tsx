@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${clash.variable}`}>
-      <body className="font-clash antialiased">{children}</body>
+      <body className="font-clash antialiased bg-transparent">
+        {children}
+      </body>
     </html>
   );
 }
